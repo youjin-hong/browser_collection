@@ -6,6 +6,7 @@ import ReleaseTimeline from "@/components/ReleaseTimeline";
 import StatusBadge from "@/components/StatusBadge";
 import TypeBadge from "@/components/TypeBadge";
 import { getAllBrowsers, getBrowserById, latestRelease } from "@/lib/browsers";
+import { getOfficialLink } from "@/lib/browserLinks";
 import type { BrowserId } from "@/lib/types";
 
 export function generateStaticParams() {
@@ -28,6 +29,7 @@ export default async function BrowserDetailPage({
 
   const latest = latestRelease(browser);
   const upstream = browser.upstream ? getBrowserById(browser.upstream) : undefined;
+  const officialLink = getOfficialLink(browser.id);
 
   return (
     <div className="mx-auto flex w-full max-w-3xl flex-1 flex-col gap-8 px-6 py-12">
@@ -46,6 +48,16 @@ export default async function BrowserDetailPage({
           <TypeBadge type={browser.type} />
           {latest?.engine && <EngineBadge engine={latest.engine} />}
           {latest && <StatusBadge status={latest.status} />}
+          {officialLink && (
+            <a
+              href={officialLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="ml-auto inline-flex items-center gap-1 rounded-full bg-zinc-900 px-3 py-1.5 text-sm font-medium text-white transition hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-zinc-300"
+            >
+              브라우저 열기 ↗
+            </a>
+          )}
         </div>
 
         <dl className="grid grid-cols-2 gap-x-6 gap-y-1 text-sm text-zinc-600 dark:text-zinc-400 sm:grid-cols-4">
