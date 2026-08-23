@@ -3,6 +3,25 @@ import { Suspense } from "react";
 import BrowserGrid from "@/components/BrowserGrid";
 import { dataMeta, getAllBrowsers } from "@/lib/browsers";
 
+function BrowserGridSkeleton({ count }: { count: number }) {
+  return (
+    <div className="flex flex-col gap-6" aria-hidden>
+      <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+        <div className="h-9 w-full animate-pulse rounded-lg bg-zinc-100 dark:bg-zinc-800 sm:max-w-xs sm:flex-1" />
+        <div className="h-9 w-64 animate-pulse rounded-lg bg-zinc-100 dark:bg-zinc-800" />
+      </div>
+      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        {Array.from({ length: count }).map((_, i) => (
+          <div
+            key={i}
+            className="h-32 animate-pulse rounded-xl border border-zinc-200 bg-zinc-50 dark:border-zinc-800 dark:bg-zinc-900"
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Home() {
   const browsers = getAllBrowsers();
 
@@ -26,7 +45,7 @@ export default function Home() {
         </p>
       </header>
 
-      <Suspense>
+      <Suspense fallback={<BrowserGridSkeleton count={browsers.length} />}>
         <BrowserGrid browsers={browsers} />
       </Suspense>
 
