@@ -12,7 +12,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
-    "@mdn/browser-compat-data": "^8.0.12",
+    "@mdn/browser-compat-data": "^8.0.13",
     "next": "16.3.2",
     "react": "19.2.8",
     "react-dom": "19.2.8"

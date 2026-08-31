@@ -1,7 +1,7 @@
 {
   "meta": {
-    "bcdVersion": "8.0.12",
-    "generatedAt": "2026-08-24T07:11:30.438Z"
+    "bcdVersion": "8.0.13",
+    "generatedAt": "2026-08-31T13:24:15.645Z"
   },
   "browsers": [
     {
@@ -961,6 +961,14 @@
           "engine_version": "625.1.16",
           "release_date": "2026-05-13",
           "release_notes": "https://bun.com/blog/release-notes/bun-v1.3.14",
+          "status": "retired"
+        },
+        {
+          "version": "1.4.0",
+          "engine": "WebKit",
+          "engine_version": "626.1.4",
+          "release_date": "2026-08-20",
+          "release_notes": "https://bun.com/blog/release-notes/bun-v1.4.0",
           "status": "current"
         }
       ]
@@ -2172,26 +2180,34 @@
           "engine_version": "151",
           "release_date": "2026-07-28",
           "release_notes": "https://developer.chrome.com/release-notes/151",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "152",
           "engine": "Blink",
           "engine_version": "152",
           "release_date": "2026-08-25",
-          "status": "beta"
+          "release_notes": "https://developer.chrome.com/release-notes/152",
+          "status": "current"
         },
         {
           "version": "153",
           "engine": "Blink",
           "engine_version": "153",
           "release_date": "2026-09-08",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "154",
           "engine": "Blink",
           "engine_version": "154",
+          "release_date": "2026-09-22",
+          "status": "nightly"
+        },
+        {
+          "version": "155",
+          "engine": "Blink",
+          "engine_version": "155",
           "status": "planned"
         }
       ]
@@ -3217,26 +3233,34 @@
           "engine_version": "151",
           "release_date": "2026-07-28",
           "release_notes": "https://developer.chrome.com/release-notes/151",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "152",
           "engine": "Blink",
           "engine_version": "152",
           "release_date": "2026-08-25",
-          "status": "beta"
+          "release_notes": "https://developer.chrome.com/release-notes/152",
+          "status": "current"
         },
         {
           "version": "153",
           "engine": "Blink",
           "engine_version": "153",
           "release_date": "2026-09-08",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "154",
           "engine": "Blink",
           "engine_version": "154",
+          "release_date": "2026-09-22",
+          "status": "nightly"
+        },
+        {
+          "version": "155",
+          "engine": "Blink",
+          "engine_version": "155",
           "status": "planned"
         }
       ]
@@ -4416,6 +4440,7 @@
           "engine": "Blink",
           "engine_version": "153",
           "release_date": "2026-09-10",
+          "release_notes": "https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/153",
           "status": "nightly"
         },
         {
@@ -9420,18 +9445,26 @@
           "engine_version": "150",
           "release_date": "2026-08-06",
           "release_notes": "https://blogs.opera.com/desktop/2026/08/opera-134-stable/",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "135",
           "engine": "Blink",
           "engine_version": "151",
-          "status": "beta"
+          "release_date": "2026-08-20",
+          "release_notes": "https://blogs.opera.com/desktop/2026/08/opera-135-stable/",
+          "status": "current"
         },
         {
           "version": "136",
           "engine": "Blink",
           "engine_version": "152",
+          "status": "beta"
+        },
+        {
+          "version": "137",
+          "engine": "Blink",
+          "engine_version": "153",
           "status": "nightly"
         }
       ]
@@ -10122,6 +10155,14 @@
           "engine_version": "149",
           "release_date": "2026-07-01",
           "release_notes": "https://forums.opera.com/topic/88999/opera-for-android-100",
+          "status": "retired"
+        },
+        {
+          "version": "101",
+          "engine": "Blink",
+          "engine_version": "151",
+          "release_date": "2026-08-26",
+          "release_notes": "https://forums.opera.com/topic/89420/opera-for-android-101",
           "status": "current"
         }
       ]
@@ -12412,26 +12453,34 @@
           "engine_version": "151",
           "release_date": "2026-07-28",
           "release_notes": "https://developer.chrome.com/release-notes/151",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "152",
           "engine": "Blink",
           "engine_version": "152",
           "release_date": "2026-08-25",
-          "status": "beta"
+          "release_notes": "https://developer.chrome.com/release-notes/152",
+          "status": "current"
         },
         {
           "version": "153",
           "engine": "Blink",
           "engine_version": "153",
           "release_date": "2026-09-08",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "154",
           "engine": "Blink",
           "engine_version": "154",
+          "release_date": "2026-09-22",
+          "status": "nightly"
+        },
+        {
+          "version": "155",
+          "engine": "Blink",
+          "engine_version": "155",
           "status": "planned"
         }
       ]
