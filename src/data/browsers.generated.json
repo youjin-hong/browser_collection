@@ -1,7 +1,7 @@
 {
   "meta": {
-    "bcdVersion": "8.1.0",
-    "generatedAt": "2026-09-07T12:13:06.647Z"
+    "bcdVersion": "8.1.1",
+    "generatedAt": "2026-09-14T12:28:51.823Z"
   },
   "browsers": [
     {
@@ -1092,6 +1092,24 @@
           "index": 122,
           "release_date": "2026-08-20",
           "release_notes": "https://bun.com/blog/release-notes/bun-v1.4.0",
+          "status": "retired"
+        },
+        {
+          "version": "1.4.1",
+          "engine": "WebKit",
+          "engine_version": "626.1.6",
+          "index": 123,
+          "release_date": "2026-09-04",
+          "release_notes": "https://bun.com/blog/release-notes/bun-v1.4.1",
+          "status": "retired"
+        },
+        {
+          "version": "1.4.2",
+          "engine": "WebKit",
+          "engine_version": "626.1.6",
+          "index": 124,
+          "release_date": "2026-09-05",
+          "release_notes": "https://bun.com/blog/release-notes/bun-v1.4.2",
           "status": "current"
         }
       ]
@@ -2462,7 +2480,7 @@
           "index": 150,
           "release_date": "2026-08-25",
           "release_notes": "https://developer.chrome.com/release-notes/152",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "153",
@@ -2470,7 +2488,8 @@
           "engine_version": "153",
           "index": 151,
           "release_date": "2026-09-08",
-          "status": "beta"
+          "release_notes": "https://developer.chrome.com/release-notes/153",
+          "status": "current"
         },
         {
           "version": "154",
@@ -2478,13 +2497,21 @@
           "engine_version": "154",
           "index": 152,
           "release_date": "2026-09-22",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "155",
           "engine": "Blink",
           "engine_version": "155",
           "index": 153,
+          "release_date": "2026-10-06",
+          "status": "nightly"
+        },
+        {
+          "version": "156",
+          "engine": "Blink",
+          "engine_version": "156",
+          "index": 154,
           "status": "planned"
         }
       ]
@@ -3646,7 +3673,7 @@
           "index": 127,
           "release_date": "2026-08-25",
           "release_notes": "https://developer.chrome.com/release-notes/152",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "153",
@@ -3654,7 +3681,8 @@
           "engine_version": "153",
           "index": 128,
           "release_date": "2026-09-08",
-          "status": "beta"
+          "release_notes": "https://developer.chrome.com/release-notes/153",
+          "status": "current"
         },
         {
           "version": "154",
@@ -3662,13 +3690,21 @@
           "engine_version": "154",
           "index": 129,
           "release_date": "2026-09-22",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "155",
           "engine": "Blink",
           "engine_version": "155",
           "index": 130,
+          "release_date": "2026-10-06",
+          "status": "nightly"
+        },
+        {
+          "version": "156",
+          "engine": "Blink",
+          "engine_version": "156",
+          "index": 131,
           "status": "planned"
         }
       ]
@@ -12938,6 +12974,14 @@
           "engine_version": "136",
           "index": 50,
           "release_date": "2025-10-25",
+          "status": "retired"
+        },
+        {
+          "version": "30.0",
+          "engine": "Blink",
+          "engine_version": "143",
+          "index": 51,
+          "release_date": "2026-05-11",
           "status": "current"
         }
       ]
@@ -14051,7 +14095,7 @@
           "index": 122,
           "release_date": "2026-08-25",
           "release_notes": "https://developer.chrome.com/release-notes/152",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "153",
@@ -14059,7 +14103,8 @@
           "engine_version": "153",
           "index": 123,
           "release_date": "2026-09-08",
-          "status": "beta"
+          "release_notes": "https://developer.chrome.com/release-notes/153",
+          "status": "current"
         },
         {
           "version": "154",
@@ -14067,13 +14112,21 @@
           "engine_version": "154",
           "index": 124,
           "release_date": "2026-09-22",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "155",
           "engine": "Blink",
           "engine_version": "155",
           "index": 125,
+          "release_date": "2026-10-06",
+          "status": "nightly"
+        },
+        {
+          "version": "156",
+          "engine": "Blink",
+          "engine_version": "156",
+          "index": 126,
           "status": "planned"
         }
       ]
