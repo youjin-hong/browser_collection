@@ -1,7 +1,7 @@
 {
   "meta": {
-    "bcdVersion": "8.1.2",
-    "generatedAt": "2026-09-21T12:35:19.148Z"
+    "bcdVersion": "8.1.3",
+    "generatedAt": "2026-09-28T13:35:16.475Z"
   },
   "browsers": [
     {
@@ -2489,7 +2489,7 @@
           "index": 151,
           "release_date": "2026-09-08",
           "release_notes": "https://developer.chrome.com/release-notes/153",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "154",
@@ -2497,7 +2497,8 @@
           "engine_version": "154",
           "index": 152,
           "release_date": "2026-09-22",
-          "status": "beta"
+          "release_notes": "https://developer.chrome.com/release-notes/154",
+          "status": "current"
         },
         {
           "version": "155",
@@ -2505,13 +2506,21 @@
           "engine_version": "155",
           "index": 153,
           "release_date": "2026-10-06",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "156",
           "engine": "Blink",
           "engine_version": "156",
           "index": 154,
+          "release_date": "2026-10-20",
+          "status": "nightly"
+        },
+        {
+          "version": "157",
+          "engine": "Blink",
+          "engine_version": "157",
+          "index": 155,
           "status": "planned"
         }
       ]
@@ -3682,7 +3691,7 @@
           "index": 128,
           "release_date": "2026-09-08",
           "release_notes": "https://developer.chrome.com/release-notes/153",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "154",
@@ -3690,7 +3699,8 @@
           "engine_version": "154",
           "index": 129,
           "release_date": "2026-09-22",
-          "status": "beta"
+          "release_notes": "https://developer.chrome.com/release-notes/154",
+          "status": "current"
         },
         {
           "version": "155",
@@ -3698,13 +3708,21 @@
           "engine_version": "155",
           "index": 130,
           "release_date": "2026-10-06",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "156",
           "engine": "Blink",
           "engine_version": "156",
           "index": 131,
+          "release_date": "2026-10-20",
+          "status": "nightly"
+        },
+        {
+          "version": "157",
+          "engine": "Blink",
+          "engine_version": "157",
+          "index": 132,
           "status": "planned"
         }
       ]
@@ -10750,20 +10768,29 @@
           "index": 147,
           "release_date": "2026-08-20",
           "release_notes": "https://blogs.opera.com/desktop/2026/08/opera-135-stable/",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "136",
           "engine": "Blink",
           "engine_version": "152",
           "index": 148,
-          "status": "beta"
+          "release_date": "2026-09-17",
+          "release_notes": "https://blogs.opera.com/desktop/2026/09/opera-136-stable/",
+          "status": "current"
         },
         {
           "version": "137",
           "engine": "Blink",
           "engine_version": "153",
           "index": 149,
+          "status": "beta"
+        },
+        {
+          "version": "138",
+          "engine": "Blink",
+          "engine_version": "154",
+          "index": 150,
           "status": "nightly"
         }
       ]
@@ -11550,6 +11577,15 @@
           "index": 87,
           "release_date": "2026-08-26",
           "release_notes": "https://forums.opera.com/topic/89420/opera-for-android-101",
+          "status": "retired"
+        },
+        {
+          "version": "102",
+          "engine": "Blink",
+          "engine_version": "152",
+          "index": 88,
+          "release_date": "2026-09-23",
+          "release_notes": "https://forums.opera.com/topic/89629/opera-for-android-102",
           "status": "current"
         }
       ]
@@ -12099,6 +12135,14 @@
           "release_date": "2026-09-14",
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27-release-notes",
           "status": "current"
+        },
+        {
+          "version": "27.2",
+          "engine": "WebKit",
+          "engine_version": "625.2.4",
+          "index": 61,
+          "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_2-release-notes",
+          "status": "beta"
         }
       ]
     },
@@ -12613,6 +12657,14 @@
           "release_date": "2026-09-14",
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27-release-notes",
           "status": "current"
+        },
+        {
+          "version": "27.2",
+          "engine": "WebKit",
+          "engine_version": "625.2.4",
+          "index": 58,
+          "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_2-release-notes",
+          "status": "beta"
         }
       ]
     },
@@ -14160,7 +14212,7 @@
           "index": 123,
           "release_date": "2026-09-08",
           "release_notes": "https://developer.chrome.com/release-notes/153",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "154",
@@ -14168,7 +14220,8 @@
           "engine_version": "154",
           "index": 124,
           "release_date": "2026-09-22",
-          "status": "beta"
+          "release_notes": "https://developer.chrome.com/release-notes/154",
+          "status": "current"
         },
         {
           "version": "155",
@@ -14176,13 +14229,21 @@
           "engine_version": "155",
           "index": 125,
           "release_date": "2026-10-06",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "156",
           "engine": "Blink",
           "engine_version": "156",
           "index": 126,
+          "release_date": "2026-10-20",
+          "status": "nightly"
+        },
+        {
+          "version": "157",
+          "engine": "Blink",
+          "engine_version": "157",
+          "index": 127,
           "status": "planned"
         }
       ]
@@ -14698,6 +14759,14 @@
           "release_date": "2026-09-14",
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27-release-notes",
           "status": "current"
+        },
+        {
+          "version": "27.2",
+          "engine": "WebKit",
+          "engine_version": "625.2.4",
+          "index": 58,
+          "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_2-release-notes",
+          "status": "beta"
         }
       ]
     }
