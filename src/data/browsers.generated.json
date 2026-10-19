@@ -1,7 +1,7 @@
 {
   "meta": {
-    "bcdVersion": "8.1.5",
-    "generatedAt": "2026-10-12T15:06:58.961Z"
+    "bcdVersion": "8.1.6",
+    "generatedAt": "2026-10-19T12:50:10.661Z"
   },
   "browsers": [
     {
@@ -1110,6 +1110,15 @@
           "index": 124,
           "release_date": "2026-09-05",
           "release_notes": "https://bun.com/blog/release-notes/bun-v1.4.2",
+          "status": "retired"
+        },
+        {
+          "version": "1.4.3",
+          "engine": "WebKit",
+          "engine_version": "627.1.4",
+          "index": 125,
+          "release_date": "2026-10-10",
+          "release_notes": "https://bun.com/blog/release-notes/bun-v1.4.3",
           "status": "current"
         }
       ]
@@ -5073,7 +5082,7 @@
           "index": 81,
           "release_date": "2026-09-24",
           "release_notes": "https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/154",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "155",
@@ -5082,7 +5091,7 @@
           "index": 82,
           "release_date": "2026-10-08",
           "release_notes": "https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/155",
-          "status": "beta"
+          "status": "current"
         },
         {
           "version": "156",
@@ -5090,7 +5099,8 @@
           "engine_version": "156",
           "index": 83,
           "release_date": "2026-10-22",
-          "status": "nightly"
+          "release_notes": "https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/156",
+          "status": "beta"
         },
         {
           "version": "157",
@@ -5098,6 +5108,14 @@
           "engine_version": "157",
           "index": 84,
           "release_date": "2026-11-05",
+          "status": "nightly"
+        },
+        {
+          "version": "158",
+          "engine": "Blink",
+          "engine_version": "158",
+          "index": 85,
+          "release_date": "2026-11-19",
           "status": "planned"
         }
       ]
@@ -6549,7 +6567,7 @@
           "index": 159,
           "release_date": "2026-09-29",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/157",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "158",
@@ -6558,7 +6576,7 @@
           "index": 160,
           "release_date": "2026-10-13",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/158",
-          "status": "beta"
+          "status": "current"
         },
         {
           "version": "159",
@@ -6567,7 +6585,7 @@
           "index": 161,
           "release_date": "2026-10-27",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/159",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "160",
@@ -6576,6 +6594,15 @@
           "index": 162,
           "release_date": "2026-11-10",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/160",
+          "status": "nightly"
+        },
+        {
+          "version": "161",
+          "engine": "Gecko",
+          "engine_version": "161",
+          "index": 163,
+          "release_date": "2026-11-24",
+          "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/161",
           "status": "planned"
         }
       ]
@@ -7856,7 +7883,7 @@
           "index": 140,
           "release_date": "2026-09-29",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/157",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "158",
@@ -7865,7 +7892,7 @@
           "index": 141,
           "release_date": "2026-10-13",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/158",
-          "status": "beta"
+          "status": "current"
         },
         {
           "version": "159",
@@ -7874,7 +7901,7 @@
           "index": 142,
           "release_date": "2026-10-27",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/159",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "160",
@@ -7883,6 +7910,15 @@
           "index": 143,
           "release_date": "2026-11-10",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/160",
+          "status": "nightly"
+        },
+        {
+          "version": "161",
+          "engine": "Gecko",
+          "engine_version": "161",
+          "index": 144,
+          "release_date": "2026-11-24",
+          "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/161",
           "status": "planned"
         }
       ]
@@ -12191,7 +12227,7 @@
         {
           "version": "27.2",
           "engine": "WebKit",
-          "engine_version": "625.2.4",
+          "engine_version": "625.2.8",
           "index": 61,
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_2-release-notes",
           "status": "beta"
@@ -12713,7 +12749,7 @@
         {
           "version": "27.2",
           "engine": "WebKit",
-          "engine_version": "625.2.4",
+          "engine_version": "625.2.8",
           "index": 58,
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_2-release-notes",
           "status": "beta"
@@ -14823,7 +14859,7 @@
         {
           "version": "27.2",
           "engine": "WebKit",
-          "engine_version": "625.2.4",
+          "engine_version": "625.2.8",
           "index": 58,
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_2-release-notes",
           "status": "beta"
