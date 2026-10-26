@@ -1,7 +1,7 @@
 {
   "meta": {
-    "bcdVersion": "8.1.6",
-    "generatedAt": "2026-10-19T12:50:10.661Z"
+    "bcdVersion": "8.1.7",
+    "generatedAt": "2026-10-26T12:42:49.562Z"
   },
   "browsers": [
     {
@@ -2515,7 +2515,8 @@
           "engine_version": "155",
           "index": 153,
           "release_date": "2026-10-06",
-          "status": "current"
+          "release_notes": "https://chromestatus.com/release-notes/155",
+          "status": "retired"
         },
         {
           "version": "156",
@@ -2523,7 +2524,8 @@
           "engine_version": "156",
           "index": 154,
           "release_date": "2026-10-20",
-          "status": "beta"
+          "release_notes": "https://chromestatus.com/release-notes/156",
+          "status": "current"
         },
         {
           "version": "157",
@@ -2531,13 +2533,24 @@
           "engine_version": "157",
           "index": 155,
           "release_date": "2026-11-03",
-          "status": "nightly"
+          "release_notes": "https://chromestatus.com/release-notes/157",
+          "status": "beta"
         },
         {
           "version": "158",
           "engine": "Blink",
           "engine_version": "158",
           "index": 156,
+          "release_date": "2026-11-17",
+          "release_notes": "https://chromestatus.com/release-notes/158",
+          "status": "nightly"
+        },
+        {
+          "version": "159",
+          "engine": "Blink",
+          "engine_version": "159",
+          "index": 157,
+          "release_notes": "https://chromestatus.com/release-notes/159",
           "status": "planned"
         }
       ]
@@ -3725,7 +3738,8 @@
           "engine_version": "155",
           "index": 130,
           "release_date": "2026-10-06",
-          "status": "current"
+          "release_notes": "https://chromestatus.com/release-notes/155",
+          "status": "retired"
         },
         {
           "version": "156",
@@ -3733,7 +3747,8 @@
           "engine_version": "156",
           "index": 131,
           "release_date": "2026-10-20",
-          "status": "beta"
+          "release_notes": "https://chromestatus.com/release-notes/156",
+          "status": "current"
         },
         {
           "version": "157",
@@ -3741,13 +3756,24 @@
           "engine_version": "157",
           "index": 132,
           "release_date": "2026-11-03",
-          "status": "nightly"
+          "release_notes": "https://chromestatus.com/release-notes/157",
+          "status": "beta"
         },
         {
           "version": "158",
           "engine": "Blink",
           "engine_version": "158",
           "index": 133,
+          "release_date": "2026-11-17",
+          "release_notes": "https://chromestatus.com/release-notes/158",
+          "status": "nightly"
+        },
+        {
+          "version": "159",
+          "engine": "Blink",
+          "engine_version": "159",
+          "index": 134,
+          "release_notes": "https://chromestatus.com/release-notes/159",
           "status": "planned"
         }
       ]
@@ -10865,20 +10891,29 @@
           "index": 149,
           "release_date": "2026-10-07",
           "release_notes": "https://blogs.opera.com/desktop/2026/10/opera-137-stable/",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "138",
           "engine": "Blink",
           "engine_version": "154",
           "index": 150,
-          "status": "beta"
+          "release_date": "2026-10-20",
+          "release_notes": "https://blogs.opera.com/desktop/2026/10/opera-138-stable/",
+          "status": "current"
         },
         {
           "version": "139",
           "engine": "Blink",
           "engine_version": "155",
           "index": 151,
+          "status": "beta"
+        },
+        {
+          "version": "140",
+          "engine": "Blink",
+          "engine_version": "156",
+          "index": 152,
           "status": "nightly"
         }
       ]
@@ -11674,6 +11709,15 @@
           "index": 88,
           "release_date": "2026-09-23",
           "release_notes": "https://forums.opera.com/topic/89629/opera-for-android-102",
+          "status": "retired"
+        },
+        {
+          "version": "103",
+          "engine": "Blink",
+          "engine_version": "154",
+          "index": 89,
+          "release_date": "2026-10-20",
+          "release_notes": "https://forums.opera.com/topic/89817/opera-for-android-103",
           "status": "current"
         }
       ]
@@ -14317,7 +14361,8 @@
           "engine_version": "155",
           "index": 125,
           "release_date": "2026-10-06",
-          "status": "current"
+          "release_notes": "https://chromestatus.com/release-notes/155",
+          "status": "retired"
         },
         {
           "version": "156",
@@ -14325,7 +14370,8 @@
           "engine_version": "156",
           "index": 126,
           "release_date": "2026-10-20",
-          "status": "beta"
+          "release_notes": "https://chromestatus.com/release-notes/156",
+          "status": "current"
         },
         {
           "version": "157",
@@ -14333,13 +14379,24 @@
           "engine_version": "157",
           "index": 127,
           "release_date": "2026-11-03",
-          "status": "nightly"
+          "release_notes": "https://chromestatus.com/release-notes/157",
+          "status": "beta"
         },
         {
           "version": "158",
           "engine": "Blink",
           "engine_version": "158",
           "index": 128,
+          "release_date": "2026-11-17",
+          "release_notes": "https://chromestatus.com/release-notes/158",
+          "status": "nightly"
+        },
+        {
+          "version": "159",
+          "engine": "Blink",
+          "engine_version": "159",
+          "index": 129,
+          "release_notes": "https://chromestatus.com/release-notes/159",
           "status": "planned"
         }
       ]
