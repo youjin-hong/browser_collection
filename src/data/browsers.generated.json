@@ -1,7 +1,7 @@
 {
   "meta": {
-    "bcdVersion": "8.1.7",
-    "generatedAt": "2026-10-26T12:42:49.562Z"
+    "bcdVersion": "8.1.8",
+    "generatedAt": "2026-11-02T15:28:59.971Z"
   },
   "browsers": [
     {
@@ -1119,6 +1119,15 @@
           "index": 125,
           "release_date": "2026-10-10",
           "release_notes": "https://bun.com/blog/release-notes/bun-v1.4.3",
+          "status": "retired"
+        },
+        {
+          "version": "1.4.4",
+          "engine": "WebKit",
+          "engine_version": "627.1.4",
+          "index": 126,
+          "release_date": "2026-10-22",
+          "release_notes": "https://bun.com/blog/release-notes/bun-v1.4.4",
           "status": "current"
         }
       ]
@@ -5117,7 +5126,7 @@
           "index": 82,
           "release_date": "2026-10-08",
           "release_notes": "https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/155",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "156",
@@ -5126,7 +5135,7 @@
           "index": 83,
           "release_date": "2026-10-22",
           "release_notes": "https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/156",
-          "status": "beta"
+          "status": "current"
         },
         {
           "version": "157",
@@ -5134,7 +5143,8 @@
           "engine_version": "157",
           "index": 84,
           "release_date": "2026-11-05",
-          "status": "nightly"
+          "release_notes": "https://learn.microsoft.com/en-us/microsoft-edge/web-platform/release-notes/157",
+          "status": "beta"
         },
         {
           "version": "158",
@@ -5142,6 +5152,14 @@
           "engine_version": "158",
           "index": 85,
           "release_date": "2026-11-19",
+          "status": "nightly"
+        },
+        {
+          "version": "159",
+          "engine": "Blink",
+          "engine_version": "159",
+          "index": 86,
+          "release_date": "2026-12-10",
           "status": "planned"
         }
       ]
@@ -6602,7 +6620,7 @@
           "index": 160,
           "release_date": "2026-10-13",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/158",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "159",
@@ -6611,7 +6629,7 @@
           "index": 161,
           "release_date": "2026-10-27",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/159",
-          "status": "beta"
+          "status": "current"
         },
         {
           "version": "160",
@@ -6620,7 +6638,7 @@
           "index": 162,
           "release_date": "2026-11-10",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/160",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "161",
@@ -6629,6 +6647,15 @@
           "index": 163,
           "release_date": "2026-11-24",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/161",
+          "status": "nightly"
+        },
+        {
+          "version": "162",
+          "engine": "Gecko",
+          "engine_version": "162",
+          "index": 164,
+          "release_date": "2026-12-08",
+          "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/162",
           "status": "planned"
         }
       ]
@@ -7918,7 +7945,7 @@
           "index": 141,
           "release_date": "2026-10-13",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/158",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "159",
@@ -7927,7 +7954,7 @@
           "index": 142,
           "release_date": "2026-10-27",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/159",
-          "status": "beta"
+          "status": "current"
         },
         {
           "version": "160",
@@ -7936,7 +7963,7 @@
           "index": 143,
           "release_date": "2026-11-10",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/160",
-          "status": "nightly"
+          "status": "beta"
         },
         {
           "version": "161",
@@ -7945,6 +7972,15 @@
           "index": 144,
           "release_date": "2026-11-24",
           "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/161",
+          "status": "nightly"
+        },
+        {
+          "version": "162",
+          "engine": "Gecko",
+          "engine_version": "162",
+          "index": 145,
+          "release_date": "2026-12-08",
+          "release_notes": "https://developer.mozilla.org/docs/Mozilla/Firefox/Releases/162",
           "status": "planned"
         }
       ]
@@ -10900,20 +10936,29 @@
           "index": 150,
           "release_date": "2026-10-20",
           "release_notes": "https://blogs.opera.com/desktop/2026/10/opera-138-stable/",
-          "status": "current"
+          "status": "retired"
         },
         {
           "version": "139",
           "engine": "Blink",
           "engine_version": "155",
           "index": 151,
-          "status": "beta"
+          "release_date": "2026-10-27",
+          "release_notes": "https://blogs.opera.com/desktop/2026/10/opera-139-stable/",
+          "status": "current"
         },
         {
           "version": "140",
           "engine": "Blink",
           "engine_version": "156",
           "index": 152,
+          "status": "beta"
+        },
+        {
+          "version": "141",
+          "engine": "Blink",
+          "engine_version": "157",
+          "index": 153,
           "status": "nightly"
         }
       ]
@@ -12266,15 +12311,25 @@
           "index": 60,
           "release_date": "2026-09-14",
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27-release-notes",
-          "status": "current"
+          "status": "retired"
+        },
+        {
+          "version": "27.1",
+          "engine": "WebKit",
+          "engine_version": "625.1.29",
+          "index": 61,
+          "release_date": "2026-10-23",
+          "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_1-release-notes",
+          "status": "retired"
         },
         {
           "version": "27.2",
           "engine": "WebKit",
           "engine_version": "625.2.8",
-          "index": 61,
+          "index": 62,
+          "release_date": "2026-10-26",
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_2-release-notes",
-          "status": "beta"
+          "status": "current"
         }
       ]
     },
@@ -12788,15 +12843,25 @@
           "index": 57,
           "release_date": "2026-09-14",
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27-release-notes",
-          "status": "current"
+          "status": "retired"
+        },
+        {
+          "version": "27.1",
+          "engine": "WebKit",
+          "engine_version": "625.1.29",
+          "index": 58,
+          "release_date": "2026-10-23",
+          "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_1-release-notes",
+          "status": "retired"
         },
         {
           "version": "27.2",
           "engine": "WebKit",
           "engine_version": "625.2.8",
-          "index": 58,
+          "index": 59,
+          "release_date": "2026-10-26",
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_2-release-notes",
-          "status": "beta"
+          "status": "current"
         }
       ]
     },
@@ -14911,15 +14976,25 @@
           "index": 57,
           "release_date": "2026-09-14",
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27-release-notes",
-          "status": "current"
+          "status": "retired"
+        },
+        {
+          "version": "27.1",
+          "engine": "WebKit",
+          "engine_version": "625.1.29",
+          "index": 58,
+          "release_date": "2026-10-23",
+          "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_1-release-notes",
+          "status": "retired"
         },
         {
           "version": "27.2",
           "engine": "WebKit",
           "engine_version": "625.2.8",
-          "index": 58,
+          "index": 59,
+          "release_date": "2026-10-26",
           "release_notes": "https://developer.apple.com/documentation/safari-release-notes/safari-27_2-release-notes",
-          "status": "beta"
+          "status": "current"
         }
       ]
     }
